@@ -2,9 +2,10 @@
 
 ##### First of all you need to install 
 
-+ Mac Os X 
-+ iTerm 
-+ X code 
++ Xcode 
+
+Best is often to download from https://developer.apple.com/downloads/ 
+
 
 ##### User Dropbox/Documents as the Documents folder
 ```
@@ -28,6 +29,12 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
+Recomended: 
+
++ brew install wget 
++ brew install imagemagick
+
+
 ```
 $ brew doctor
 ```
@@ -41,5 +48,9 @@ $ brew install caskroom/cask/brew-cask
 
 Recomended: 
 
++ brew cask install alfred
++ brew cask install iterm 
++ brew cask install macvim 
++ brew cask install slack
 + brew cask install vlc
-+ 
+
