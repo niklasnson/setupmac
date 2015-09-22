@@ -56,7 +56,6 @@ Recomended:
 
 ```
 # you might need to run the following command to get icons to show up.
-
 mv ~/L*/Application\ Support/Dock/*.db ~/Desktop; killall Dock; exit
 ```
 
