@@ -21,10 +21,16 @@ $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools
 ```
 Install oh-my-zsh - a shell. 
 
+###### Homebrew 
 ```
 $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-Install HomeBrew - a package manager.
+
+```
+$ brew doctor
+```
+run the commands to make brew happy, in most cases xcode-select --install
+
 
 ```
 $ brew install caskroom/cask/brew-cask
