@@ -77,3 +77,27 @@ $ rbenv global 2.2.3
 
 ```
 
+
+####### Install Python3 and virtualenv 
+```
+# install python virtualenv 
+$ brew install pyenv-virtualenv
+
+# download and compile latest stable python release
+$ pyenv install 3.5.0
+
+# set it all up 
+$ pyenv virtualenv 3.5.0 virtual-env-3.5.0
+
+# set this version to global 
+$ pyenv global 3.5.0
+
+$ pyenv rehash
+$ python --version
+Python 3.5.0
+
+# install Flask 
+$ pip install Flask
+
+
+```
