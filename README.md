@@ -16,10 +16,12 @@ $ ln -s ~/Dropbox/Documents ~/Documents
 ```
 
 ##### Setup Terminal enviroment 
+I love the terminal, this will set it up just like i love it
+
+###### oh-my-zsh
 ```
 $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
-Install oh-my-zsh - a shell. 
 
 ###### Homebrew 
 ```
