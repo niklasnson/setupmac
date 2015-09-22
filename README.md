@@ -39,3 +39,7 @@ $ brew install caskroom/cask/brew-cask
 ```
 Install Brew Cask, now you can install applications with brew. 
 
+i install the following software: 
+
++ brew cask install vlc
++ 
