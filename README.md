@@ -7,6 +7,13 @@
 Best is often to download from https://developer.apple.com/downloads/ 
 
 
+##### Setup git 
+```
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+$ git config --global core.editor vim
+```
+
 ##### User Dropbox/Documents as the Documents folder
 ```
 $ sudo rm -rf ~/Documents
