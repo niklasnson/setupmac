@@ -34,12 +34,12 @@ $ brew doctor
 run the commands to make brew happy, in most cases xcode-select --install
 
 
+###### Homebrew Cask
 ```
 $ brew install caskroom/cask/brew-cask
 ```
-Install Brew Cask, now you can install applications with brew. 
 
-i install the following software: 
+Recomended: 
 
 + brew cask install vlc
 + 
