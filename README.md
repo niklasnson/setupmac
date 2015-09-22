@@ -57,6 +57,13 @@ Recomended:
 + brew cask install vlc
 
 
+```
+# you might need to run the following command to get icons to show up.
+
+mv ~/L*/Application\ Support/Dock/*.db ~/Desktop; killall Dock; exit
+```
+
+
 ####### Install a Ruby build version 
 ```
 # list all versions 
