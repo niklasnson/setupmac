@@ -33,6 +33,8 @@ Recomended:
 
 + brew install wget 
 + brew install imagemagick
++ brew install rbenv ruby-build
+
 
 
 ```
@@ -53,4 +55,18 @@ Recomended:
 + brew cask install macvim 
 + brew cask install slack
 + brew cask install vlc
+
+
+####### Install a Ruby build version 
+```
+# list all versions 
+$ rbenv install -l
+
+# install the latest version 
+$ $ rbenv install 2.2.3
+
+# set the that verison to the global 
+$ rbenv global 2.2.3
+
+```
 
