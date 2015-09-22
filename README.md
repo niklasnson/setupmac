@@ -14,15 +14,6 @@ $ git config --global user.email johndoe@example.com
 $ git config --global core.editor vim
 ```
 
-##### User Dropbox/Documents as the Documents folder
-```
-$ sudo rm -rf ~/Documents
-```
-
-```
-$ ln -s ~/Dropbox/Documents ~/Documents
-```
-
 ##### Setup Terminal enviroment 
 I love the terminal, this will set it up just like i love it
 
@@ -59,6 +50,7 @@ Recomended:
 + brew cask install macvim 
 + brew cask install slack
 + brew cask install vlc
++ brew cask install dropbox
 
 
 ```
@@ -66,6 +58,14 @@ Recomended:
 mv ~/L*/Application\ Support/Dock/*.db ~/Desktop; killall Dock; exit
 ```
 
+##### User Dropbox/Documents as the Documents folder
+```
+$ sudo rm -rf ~/Documents
+```
+
+```
+$ ln -s ~/Dropbox/Documents ~/Documents
+```
 
 ####### Install rbenv, bundler and rails  
 ```
