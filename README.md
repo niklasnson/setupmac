@@ -35,13 +35,10 @@ Recomended:
 + brew install imagemagick
 + brew install rbenv ruby-build
 
-
-
 ```
+# make brew happy, in most cases xcode-select --install
 $ brew doctor
 ```
-run the commands to make brew happy, in most cases xcode-select --install
-
 
 ###### Homebrew Cask
 ```
@@ -64,7 +61,7 @@ mv ~/L*/Application\ Support/Dock/*.db ~/Desktop; killall Dock; exit
 ```
 
 
-####### Install a Ruby build version 
+####### Install rbenv, bundler and rails  
 ```
 # list all versions 
 $ rbenv install -l
@@ -75,6 +72,14 @@ $ $ rbenv install 2.2.3
 # set the that verison to the global 
 $ rbenv global 2.2.3
 
+# install bundler 
+$ gem install bundler
+
+# install rbenv-bundler 
+$ brew install rbenv-bundler
+
+# install rails 
+$ gem install rails
 ```
 
 
@@ -99,5 +104,22 @@ Python 3.5.0
 # install Flask 
 $ pip install Flask
 
+```
 
+####### Set up SSH keys 
+```
+# generate key and follow instructions 
+$ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+# start the ssh-agent in the background
+$ eval "$(ssh-agent -s)"
+Agent pid 59566
+
+# Add your SSH key to the ssh-agent
+$ ssh-add ~/.ssh/id_rsa
+
+# Copy the key to the clipboard 
+$ pbcopy < ~/.ssh/id_rsa.pub
+
+Paste the keys into github, gitlab! 
 ```
