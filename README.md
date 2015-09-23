@@ -124,6 +124,7 @@ $ $ rbenv install 2.2.3
 
 # set the that verison to the global 
 $ rbenv global 2.2.3
+```
 
 ####### Install bundler and rails 
 
@@ -141,7 +142,6 @@ $ gem install rails
 
 ####### Install Python
 ```
-
 # download and compile latest stable python release
 $ pyenv install 3.5.0
 
