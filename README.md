@@ -46,11 +46,12 @@ $ brew install caskroom/cask/brew-cask
 Recomended: 
 
 + brew cask install alfred
++ brew cask install dropbox
++ brew cask install google-chrome
 + brew cask install iterm 
 + brew cask install macvim 
 + brew cask install slack
 + brew cask install vlc
-+ brew cask install dropbox
 
 
 ```
