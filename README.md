@@ -163,3 +163,22 @@ $ pip install Flask
 
 ```
 
+
+####### Install Postgresql
+```
+# Will install the latest version
+$ brew install postgresql
+
+# Start Postgresql at login 
+$ ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
+
+# Start it right now 
+$ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
+
+# If you want to manual start 
+$ postgres -D /usr/local/var/postgres
+
+
+```
+
+
