@@ -79,6 +79,8 @@ $ $ rbenv install 2.2.3
 # set the that verison to the global 
 $ rbenv global 2.2.3
 
+# > install brew install pyenv-virtualenv, install my .vim and then continue
+
 # install bundler 
 $ gem install bundler
 
