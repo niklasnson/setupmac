@@ -32,6 +32,7 @@ Recomended:
 + brew install wget 
 + brew install imagemagick
 + brew install rbenv ruby-build
++ brew install ssh-copy-id
 
 ```
 # make brew happy, in most cases xcode-select --install
