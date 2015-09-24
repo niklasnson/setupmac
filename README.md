@@ -53,6 +53,7 @@ Recomended:
 + brew cask install dropbox
 + brew cask install google-chrome
 + brew cask install iterm 
++ brew cask install mactex 
 + brew cask install macvim 
 + brew cask install slack
 + brew cask install vlc
