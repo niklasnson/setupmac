@@ -1,4 +1,7 @@
-# setupmac
+# setupmac.markdown
+
+## Intro
+Please start with a new installed mac.
 
 ##### First of all you need to install 
 
@@ -57,8 +60,8 @@ Recomended:
 + brew cask install macvim 
 + brew cask install slack
 + brew cask install vlc
-
-
++ brew cask install java
++ brew cask install eclipse-installer
 
 ```
 # you might need to run the following command to get icons to show up.
@@ -182,7 +185,6 @@ $ launchctl load ~/Library/LaunchAgents/homebrew.mxcl.postgresql.plist
 
 # If you want to manual start 
 $ postgres -D /usr/local/var/postgres
-
 
 ```
 
