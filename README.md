@@ -38,7 +38,7 @@ Recomended:
 + brew install rbenv ruby-build
 + brew install ssh-copy-id
 + brew install pyenv-virtualenv
-
++ brew install gcc --with-all-languages
 
 ```
 # make brew happy, in most cases xcode-select --install
