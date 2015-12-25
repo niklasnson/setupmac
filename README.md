@@ -143,6 +143,12 @@ $ brew install rbenv-bundler
 
 # install rails 
 $ gem install rails
+
+# optional: 
+$ brew link --force openssl               // this is current broken on the pre versuion.
+$ gem install eventmachine -v 1.0.7
+$ gem install rails --pre 
+
 ```
 
 
